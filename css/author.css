@@ -1,0 +1,253 @@
+@font-face {
+  font-family: League Spartan;
+  src: url(../fonts/LeagueSpartan_Bold.otf);
+  font-family: Libre Baskerville;
+  src: url(../fonts/LibreBaskerville_Italic.otf);
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #98ABDC;
+}
+
+p,li,a,button{
+	font-family: "League Spartan";
+	font-size: 1.2em;
+	color: #DADDE5;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+h3{
+	font-family: "League Spartan";
+	font-size: 2em;
+	color: #DADDE5;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 10px;
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px 2%;
+	background-color: #24282D;
+}
+
+footer{
+	width: 100%;
+	height: 300px;
+	align-items: center;
+	padding: 30px 2% 70px 2%;
+	background-color: #24282D;
+	position: relative;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(102, 130, 185, 1);
+	border: none;
+	border-radius: 50px;
+}
+
+button:hover{
+	background-color: rgba(102, 130, 185, 0.8);
+}
+
+#logo_{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#logo_h{
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+}
+
+#author{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer_bottom{
+	height: 45px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-top: 10px;
+	background-color: #2D2E30;
+	overflow: auto;
+}
+
+#footer_bottom p{
+	font-family: "Libre Baskerville";
+	font-size: 1em;
+	color: #85878C;
+	font-weight: 5;
+	text-decoration: none;
+}
+
+#logo_ p, #logo_h p{
+	padding: 7px 0 0 3px;
+}
+
+#logo{
+	cursor: pointer;
+}
+
+#links{
+	list-style: none;
+	margin-right: auto;
+}
+
+#links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+#links li a{
+	transition: all 0.3s ease 0s;
+}
+
+#links li a:hover{
+	color: #6682B9;
+}
+
+#intro{
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#introp{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-style: hidden;
+	background-color: #6682B9;
+	padding: 20px;
+	width: 700px;
+}
+
+#socmed ul {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#socmed ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+#socmed ul li .fa {
+    color: #000000;
+    font-size: 23px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+#socmed ul li .fa:hover {
+    color: #ffffff;
+}
+
+#socmed ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+}
+
+#socmed ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#socmed ul li:nth-child(1) a:hover {
+    background-color: #6682B9;
+}
+
+#socmed ul li:nth-child(2) a:hover {
+    background-color: #6682B9;
+}
+
+#socmed ul li:nth-child(3) a:hover {
+    background-color: #6682B9;
+}
+
+#desc p, #message p, #introp p, #sauce p{
+	font-family: "Libre Baskerville";
+	font-size: 1em;
+	color: #DADDE5;
+	font-weight: 5;
+	text-decoration: none;
+	text-align: justify;
+	text-indent: 50px;
+	padding-bottom: 10px;
+}
+
+#desc, #message, #sauce{
+	text-align: center;
+	border-style: solid;
+	border-color: #6682B9;
+	background-color: #6682B9;
+	padding: 70px;
+	margin: 30px 300px;
+	overflow: auto;
+}
+
+#message h3, #message img, #sauce h3{
+	float: left;
+	text-align: center;
+}
+
+#message img{
+	padding: 10px;
+}
+
+#message h3, #sauce h3{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#s_list, #a_list{
+	list-style: none;
+}
+
+#s_list li{
+	padding-top: 4px;
+}
+
+#s_list, #a_list li a{
+	transition: all 0.3s ease 0s;
+}
+
+#a_list li{
+	font-size: 0.9em;
+	padding-top: 2px;
+}
+
+#s_list li a:hover{
+	color: #2D2E30;
+}
