@@ -1,0 +1,56 @@
+@font-face {
+  font-family: League Spartan;
+  src: url(../fonts/LeagueSpartan_Bold.otf);
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #98ABDC;
+}
+
+p,li,a{
+	font-family: "League Spartan";
+	font-weight: 500;
+	font-size: 1.09em;
+	color: #DADDE5;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	background-color: #24282D;
+}
+
+#logo{
+	cursor: pointer;
+	background-color: #24282D;
+}
+
+#links{
+	list-style: none;
+	background-color: #24282D;
+}
+
+#links li{
+	display: inline-block;
+	padding: 0px 20px;
+	background-color: #24282D;
+}
+
+#links li a{
+	transition: all 0.3s ease 0s;
+	background-color: #24282D;
+}
+
+#links li a:hover{
+	color: #6682B9;
+}
+
+#locat{
+	background-color: #24282D;
+}
